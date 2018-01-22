@@ -1,0 +1,199 @@
+body, html {
+    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+    margin: 0;
+    color: #777777;
+    min-height: 100%;
+    overflow: auto;
+    position: relative;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'Georgia', Times, Times New Roman, serif;
+}
+
+header {
+    background: #ffffff;
+    border-bottom: 2px;
+    border-bottom-color: red;
+    overflow: auto;
+    border-bottom-style: solid;
+    border-bottom-color: #cccccc;
+    padding: 0px;
+}
+
+.name {
+    background: #4aaaa5;
+    float: left;
+    margin: 10px 0px 0px 170px;
+    padding: 20px 70px 20px 70px;
+    color: #ffffff;
+    font-size: 32px;
+
+}
+
+.navigation {
+    float: right;
+    margin-right: 100px;
+    height: 5%;
+    margin-top: 30px;
+}
+
+.navigation ul li {
+    border-style: solid;
+    list-style-type: none;
+    display: inline-block;
+    padding: 5px;
+    border-right: 5px;
+    border-color: green;
+}
+
+.navigation a {
+    text-decoration: none;
+    color: #666666;
+}
+
+.content {
+    overflow: auto;
+/*     background-color: blue; */
+    height: 500px;
+/*     background: url("background.png"); */
+}
+
+.content h2 {
+    border-bottom: solid;
+    border-color: #dddddd;
+    text-align: center;
+    padding: 10px;
+    color: #4aaaa5;
+    font-weight: bold;
+}
+
+#background-image {
+    background-image: url("../images/background.png");
+}
+
+
+.main-content {
+    border-style: solid;
+    float: left;
+    width: 630px;
+    background: #ffffff;
+    margin: 20px 10px 50px 14%;
+    border-color: red;
+    border-width: 2px;
+    border-color: #dddddd;
+    padding: 10px;
+    font-size: 24px;
+}
+
+#profile-image {
+    width: 200px;
+    height: 200px;
+    float: left;
+    padding: 10px;
+}
+
+.main-content h2 {
+    text-align: left;
+    font-size: 40px;
+
+}
+
+.main-content p {
+    margin-top: 10px;
+}
+
+.side-bar {
+    border-style: solid;
+    float: left;
+    width: 250px;
+    background: #ffffff;
+    margin: 20px 0px 20px 25px;
+    border-color: #dddddd;
+    border-width: 2px;
+    padding: 10px;
+}
+
+.side-bar h2 {
+    font-size: 24px;
+}
+
+.side-bar li {
+    display: inline-block;
+    list-style-type: none;
+    margin: 10px 10px 5px 01px;
+}
+
+.footer {
+    background-color: #666666;
+    padding: 25px 0px 25px 0px;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+    margin: 0;
+    text-align: center;
+    border-top: solid;
+    border-top-color: #4aaaa5;
+    color: #dddddd;
+    border-width: 10px;
+}
+
+/* END OF ORIGINAL INDEX/ABOUT ME STYLING */
+
+/* BEGINNING OF PORTFOLIO SPECIFIC STYLING */
+
+td p {
+    float: left;
+    padding: 10px 5px;
+    width: 96.25%;
+    background: #4aaaa5;
+    margin-top: -50px;
+    position: relative;
+    top: 125px;
+    text-align: center;
+    color: #dddddd;
+    font-weight: bold;
+}
+
+table img {
+    width: 100%;
+    height: 100%;
+}
+
+table {
+    margin-left: 0%;
+}
+
+td {
+    padding: 0px 25px;
+    width: 300px;
+    height: 150px;
+}
+
+
+/* END OF PORTFOLIO STYLING */
+
+/* BEGINNING OF CONTACT STYLING */
+
+form {
+    padding: 20px;
+    font-weight: bold;
+}
+
+input {
+    padding: 5px 20px 5px 20px;
+    margin: 20px;
+}
+
+button {
+    background: #4aaaa5;
+    padding: 10px 20px;;
+    border-style: none;
+}
+
+button h3 {
+    font-weight: bold;
+    font-size: 24px;
+    color: #ffffff;
+}
+
